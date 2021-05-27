@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #1c2833;
+  font-family: Helvetica, sans-serif;
+  background-color: #fff;
+}
+h1 {
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.2em;
+}
+heading.main-header {
+  width: 100%;
+  position: relative;
+}
+.title {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+.item-container {
+  width: 100%;
+}
+.item {
+  background-color: #d3d3d3;
+  position: relative;
+  overflow: hidden;
+
+  height: 150px;
+}
+.item > h2 {
+  position: relative;
+  border: 1px solid black;
+  float: right;
+  width: 120px;
+  text-align: center;
+  display: inline-block;
+  background-color: #ffb6c1;
+}
+.item > h2.beef-item {
+  color: white;
+  background-color: #bf0000;
+}
+.item > h2.sushi-item {
+  background-color: #ffffbf;
+}
+
+.item p {
+  clear: both;
+  padding: 10px;
+}
+
+/*MEDIA QUERIES
+*/
+
+@media (min-width: 992px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 66.66%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
